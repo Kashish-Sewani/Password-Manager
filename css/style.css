@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+.logo{
+    margin:0 23px;
+    font-size: 22px;
+    cursor: pointer;
+}
+nav {
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 20px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+nav ul li:hover{
+    color:rgb(189, 188, 188);
+}
+
+table,td,tr{
+    border:2px solid black;
+    border-collapse: collapse;
+    padding:5px 13px;
+}
+
+.container{
+    max-width:80vw;
+    margin:23px auto;
+}
+
+.container h1,h2{
+    margin:23px;
+}
+
+.btn{
+    cursor:pointer;
+    background-color: rgb(20, 20, 20);
+    color:white;
+    padding:9px 14px;
+    border-radius: 5px;
+    border:2px solid gray;
+    font-size:17px;
+}
+
+.delete-btn{
+    cursor:pointer;
+    background-color: rgb(20, 20, 20);
+    color:white;
+    padding:3px 5px;
+    border-radius: 5px;
+    font-size:13px;
+}
+
+img{
+    cursor: pointer;
+    position:relative;
+    bottom:7px;
+}
+
+#alert{
+    display:none;
+    color:green;
+}
